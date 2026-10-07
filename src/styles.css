@@ -255,3 +255,10 @@ body { background: radial-gradient(circle at 85% -10%, #dff7ff 0, transparent 28
 .site-footer { border-top-color:#dfe5ef; }
 .site-footer a:hover { color:#5b4ff3; }
 @media (max-width:800px){ .brand,.brand img{width:140px}.footer-brand,.footer-brand img{width:130px}.hero-art{border-radius:22px} }
+
+/* Inline Nexora logo: no external image dependency */
+.nexora-logo{display:inline-flex;align-items:center;gap:10px;color:#11182a;}
+.nexora-logo svg{width:42px;height:42px;display:block;flex:0 0 auto;}
+.nexora-logo strong{font-family:'Manrope',sans-serif;font-size:19px;letter-spacing:2px;font-weight:800;}
+.footer-logo strong{color:#eef4ff;}
+.footer-logo svg{width:38px;height:38px;}
