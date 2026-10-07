@@ -3,8 +3,8 @@ import { Header, Footer } from '@/components/Header'
 
 import '../styles.css'
 
-const siteName = 'Nexora — Practical AI programs'
-const siteDescription = 'Practical AI programs for prompting, productivity, automation, development, and AI-powered business systems.'
+const siteName = 'Nexora — Build smarter with AI'
+const siteDescription = 'Build smarter with AI through practical programs for foundations, prompting, productivity, tools, automation, and business systems.'
 
 export const Route = createRootRoute({
   head: () => ({

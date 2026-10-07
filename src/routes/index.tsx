@@ -88,6 +88,7 @@ function Home() {
           { question: 'How does access work after purchase?', answer: 'Checkout is handled through Whop. After your purchase, sign in with the same Whop account on the program page. The site checks your Whop access before showing protected curriculum materials.' },
           { question: 'Are the programs available immediately?', answer: 'Availability depends on the Whop enrollment link configured for each program. Once a program is connected to its Whop product, customers can purchase it there and use the same account to unlock their materials here.' },
           { question: 'How are payments handled?', answer: 'Payment takes place on Whop’s hosted checkout. This website does not collect or store your card details.' },
+          { question: 'How do I get purchase or account support?', answer: 'For purchase, access, or account-related help, email gcloudework07@gmail.com. Please include your Whop account email and purchase details so the support team can help you faster. Never send your password, OTP, or full payment details by email.' },
         ].map(item => <details key={item.question}><summary>{item.question}<span><ArrowDown size={17} /></span></summary><p>{item.answer}</p></details>)}
       </div>
     </section>
